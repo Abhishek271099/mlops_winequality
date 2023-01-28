@@ -3,3 +3,11 @@
 - dvc init
 
 - dvc add data_given/winequality.csv
+
+- git add . && git commit -m "first commit"
+
+- git remote add origin https://github.com/Abhishek271099/mlops_winequality.git
+
+- git branch -M main
+
+- 
