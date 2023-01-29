@@ -12,4 +12,20 @@
 
 - dvc repro
 
-- 
+- dvc metrics show
+
+- dvc metrics diff
+
+after training and evaluation we need to perform some testing
+
+- installing pytest module
+
+- echo.> tox.ini
+
+- pytest -v  ::: for running the tests
+- tox      ::: also for running the tests
+
+editing setup.py file
+
+- pip install -e .     ::: install packages in your local directory, it creates src.egg-info file
+
