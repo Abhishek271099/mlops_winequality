@@ -27,5 +27,11 @@ after training and evaluation we need to perform some testing
 
 editing setup.py file
 
-- pip install -e .     ::: install packages in your local directory, it creates src.egg-info file
+- pip install -e .     ::: install packages in your current directory, it creates src.egg-info file
+
+- python setup.py sdist bdist_wheel  ::: creates distribution for you (dist, build)
+
+- tox -r   ::: for rebuilding
+
+- creating app.py
 

@@ -33,3 +33,7 @@ stages:
         cache: false
     outs:
     - saved_models/model.joblib
+
+  reports:
+    params: params.json
+    scores: scores.json
